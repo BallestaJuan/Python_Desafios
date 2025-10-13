@@ -2,7 +2,7 @@
     Desafio #01 Operadores y estructuras de control
     https://retosdeprogramacion.com/roadmap/
 '''
-#   Operadores Aritmeticos
+#   Operadores Aritméticos
 a = 11
 b = 5 
 print("Operadores Aritméticos:")
@@ -20,7 +20,7 @@ print("Operadores Lógicos")
 print("And:", x and y )
 print("Or:", x or y )
 print("Not x:", not x)
-#   Operadores de asignacion
+#   Operadores de asignación
 c = 5
 print("Operadores de Asignación:")
 print("Valor inicial:", c)
@@ -59,7 +59,7 @@ elif num==10:
     print("igual a 10")
 else:
     print("menor que 10")
-#   estructuras itereativas 
+#   estructuras iterativas 
 print("Estructuras Iterativas:")
 
 # Bucle For 
@@ -73,7 +73,7 @@ j = 0
 while j < 3:
     print("j =", j)
     j += 1
-#   Manejo de exceptciones
+#   Manejo de excepciones
 print("Manejo de Excepciones:")
 
 try:
@@ -87,7 +87,7 @@ except ValueError:
 finally:
     print("Fin del bloque try-except.")
 
-#   Crear un programa que imprima por consola los números entre 10 10 y 55 incl. pero no el 16 ni multiplos de 3
+#   Crear un programa que imprima por consola los números entre 10 10 y 55 incl. pero no el 16 ni múltiplos de 3
 for i in range(10,56) :
     if i!=16 and i%3!=0:
         print (i)

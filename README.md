@@ -14,5 +14,6 @@ Este repositorio contiene una colección de desafíos y ejercicios de programaci
     - **MoureDev_Logica_3.py** : Ejercicio #3 La sucesión de Fibonacci.
     - **MoureDev_Logica_4.py** : Ejercicio #4 Comprobar si números son primos.
     - **MoureDev_Logica_5.py** : Ejercicio #5 Calcular el área de varios poligonos con una única función.
+    - **MoureDev_Logica_8.py : Ejercicio #8 Un programa que cuente paralabras
 
-Ultima actualización : 05/10/25
+Ultima actualización : 13/10/25

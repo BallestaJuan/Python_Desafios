@@ -4,7 +4,8 @@
 '''
 #
 #   Diseña una función (importante que sólo sea una) que se capaz de calcular y retornar el área de un polígono.
-# defino los tipos de poligonos en variables mediante una clase, con los componentes que van a tener.
+# defino los tipos de polígonos en variables mediante una clase, con los componentes que van a tener.
+# se que la forma correcta de hacerlo, seria añadir a cada clase su propio cálculo de área. En este caso el ejercicio pide una función.
 class Cuadrado:
     def __init__(self, lado:float):
         self.lado = lado
@@ -20,7 +21,7 @@ class Rectangulo:
 cuad=Cuadrado(5.2)
 tria=Triangulo(4.3, 2.3)
 rect=Rectangulo(3,4)
-# defino la funcion que comprueba que tipo es de variable ( con la función isinstance) y elige el cálculo
+# defino la función que comprueba que tipo es de variable ( con la función isinstance) y elige el cálculo
 def calcula_area (poligono):
     if isinstance(poligono, Cuadrado):
         print (f"Se trata de un cuadrado. Su área es: {poligono.lado**2}")
@@ -30,7 +31,7 @@ def calcula_area (poligono):
         print (f"Se trata de un rectangulo. Su área es: {(poligono.base*poligono.altura)}")
     else:
         print(f"Tipo de polígono no reconocido: {type(poligono).__name__}")
-# llamo a la función con cada una de los poligonos que he creado
+# llamo a la función con cada una de los polígonos que he creado
 calcula_area(cuad)
 calcula_area(tria)
 calcula_area(rect)
