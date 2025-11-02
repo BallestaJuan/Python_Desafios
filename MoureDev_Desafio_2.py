@@ -1,5 +1,5 @@
 '''
-    Desafio #01 Operadores y estructuras de control
+    Desafío #01 Operadores y estructuras de control
     https://retosdeprogramacion.com/roadmap/
 '''
 #   Operadores Aritméticos

@@ -1,11 +1,11 @@
 #
-# Desafio #00 : https://retosdeprogramacion.com/roadmap/
+# Desafío #00 : https://retosdeprogramacion.com/roadmap/
 #
 # El lenguaje de programación elegído es :  https://www.python.org/
 #
 # Sintaxis de comentarios 
 
-# este es un tipo de comentario 
+# Este es un tipo de comentario 
 x = 3.14 # Este es otro tipo de comentario
 """
  Este es otro tipo de comentario
@@ -20,7 +20,6 @@ x = 2
 x = x + 3
 #
 # Creación de variables de tipo de datos primitivos 
-
 variable_1 = 3
 variable_2 = 3.14
 variable_3 = "Python"
